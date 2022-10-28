@@ -25,13 +25,11 @@ request.addEventListener('load',function(){
         
     </div>
 </article>`;
-    placeholder.insertAdjacentHTML('beforeend',result) ;
+    holder.insertAdjacentHTML('beforeend',result) ;
 
  });
 }
-{/* <p class="country-row"><span>Languages:</span>${data.languages.vie}</p>
-       
-        <p class="country-row"><span>Currencies:</span>${data.currencies.VND.name}</p> */}
+
 getcountry('vietnam');
 getcountry('thailand');
 getcountry('india');
